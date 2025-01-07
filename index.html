@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<link rel="preload" href="checkAvif.js" as="script">
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+        var userAgent = window.navigator.userAgent || window.navigator.vendor || window.opera;
+        var stylesheet;
+
+        if (/android/i.test(userAgent)) {
+            stylesheet = 'android.css';
+        } else if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
+            stylesheet = 'ios.css';
+        } else if (/Windows NT/.test(userAgent)) {
+            stylesheet = 'windows.css';
+        } else {
+            stylesheet = 'windows.css';
+        }
+
+        var link = document.createElement('link');
+        link.rel = 'stylesheet';
+        link.href = stylesheet;
+        document.head.appendChild(link);
+    });
+</script>
+<script src="checkAvif.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cortes agency</title>
+	<link rel="icon" href="cortes.svg" type="image/x-icon">
+</head>
+<body>
+<div class="cala_strona">
+<div class="nagl_praw">
+<a class="nagl_praw_a" href="produkty.html#nasze_produkty">Nasze produkty</a>
+<a class="nagl_praw_a" href="produkty.html#oferta">Oferta</a>
+<a class="nagl_praw_a" href="#kontakt">Kontakt</a>
+<a class="nagl_praw_a" href="#o_nas">O nas</a>
+</div>
+<div class="nagl_lewa"><a style="height:90%;padding-left: 6%" href="index.html"><img src="cortes.svg" class="logo" loading="lazy"></a></div>
+<div class="main">
+<div class="main_g"><div class="main_t"><h1>Twoja płynna podróż przez świat reklamy.<br><span>
+CORTÉS AGENCY</span></h1></div></div>
+<div id="o_nas" class="main_s">
+<div class="main_zdj"></div>
+<div class="main_s_t"><h2>O NAS</h2><h3>Jesteśmy jak wiatr, co wędruje przez czas,<br>
+Z myślą w przyszłość, gdzie każdy dzień blask.<br>
+Tworzymy z pasją, kształtując marzenia,<br>
+By dać Wam więcej, by tworzyć spełnienia.<br>
+<br><br>
+Każdy z nas dąży, by świat lepszym był,<br>
+Z odwagą w sercu, co napędza sił.<br>
+Kroczymy przed siebie, otwierając drzwi,<br>
+By pokazać światu, co w nas drzemie sny.<br>
+<br><br>
+Razem tworzymy, budujemy od podstaw,<br>
+Łącząc pomysły w każdy nowy rozkaz.<br>
+</h3></div></div>
+<div id="kontakt" class="main_d"><h4>KONTAKT</h4>
+<div class="main_td">
+<div class="kont"><a href="https://www.facebook.com/"><span class="eh">FACEBOOK</span><br><img class="fb" src="facebook.svg"></a></div>
+<div class="kont"><a href="https://www.instagram.com/"><span class="eh">INSTAGRAM</span><br><img class="fb" src="instagram.svg"></a></div>
+</div>
+<iframe class="iframe" src="https://docs.google.com/forms/d/1bxP0JkN6b2D8b4gRa4su-_WcKVRA2CIgfYCTtsrINNY/viewform?edit_requested=true" frameborder="0" marginheight="0" marginwidth="0">Ładowanie…</iframe>
+</div>
+</div>
+<div class="stopka" id="stopka"><h6 class="stopka_h6">Strona została utworzonowa przez: <a href="https://www.facebook.com/qzjxkpswvnyhrcgflbmdteoiursgnqkzjxwyhjrcgflbmdteoi/" target="_blanc">Tobiasz Owczarek</a></h6></div>
+</div>
+</body>
+</html>

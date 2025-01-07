@@ -1,0 +1,41 @@
+.okna_ofert {
+	position: relative;
+    display: inline-block;
+}
+
+.text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 200%;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 4px;
+	pointer-events: none;
+	transition: filter 0.3s ease;
+	}
+
+/* Wszystkie obrazy */
+.img1, .img2, .img3, .img4, .img5 {
+	min-width: 75%;
+  max-width: 75%; /* Szerokość zależna od kontenera */
+  aspect-ratio: 1 / 1; /* Proporcje 1:1 */
+  object-fit: cover; /* Przytnij zdjęcie, zachowując wypełnienie */
+  object-position: center; /* Wycentruj zdjęcie */
+  filter: brightness(15%); /* Przyciemnienie o 85% */
+  transition: filter 0.3s ease; /* Płynne przejście */
+  object-fit: cover;
+}
+
+/* Rozjaśnianie elementu na hover */
+.img1:hover, .img2:hover, .img3:hover, .img4:hover, .img5:hover {
+  filter: brightness(100%);
+}
+
+.okna_ofert:hover .text-overlay {
+   -webkit-text-stroke: 1px black;
+   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;	
+}

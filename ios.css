@@ -1,0 +1,238 @@
+body{margin: 0px;
+font-size: 65%;
+background-image: url('8e8nu-ipgyn.avif');
+}
+
+a{
+	text-decoration: none;
+	color: black;
+	font-size: 100%;
+}
+span{
+	font-size: 45%;
+}
+
+@font-face {
+    font-family: 'UwU';
+    src: url('AutourOne-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'KYS';
+    src: url('Teko-VariableFont_wght') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.cala_strona{
+	margin:0px;
+	padding: 0px;
+	min-height: 100%;
+	max-width: 100%;
+	background-color: #252226;
+}
+.nagl_lewa{
+	z-index: 10;
+	position: absolute;
+	float: left;
+	background-color(zapis): #A69BAB;
+	height: 8vh;
+	width: 25%;
+	display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.logo{
+	max-width: 99%;
+	max-height:90%;
+}
+
+.nagl_praw{
+	right: 0;
+	z-index: 10;
+	position: absolute;
+	height: 8vh;
+	width: 75%;
+	overflow: hidden;
+}
+.nagl_praw_a{
+	font-family: 'KYS', sans-serif;
+	text-decoration: none;
+	float: right;
+	margin-right: 4%;
+	margin-top: 0%;
+	color: #F9E0FF;
+	height: 100%;
+	border: 1px transparent solid;
+	box-sizing: border-box;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 140%;
+}
+.nagl_praw_a:hover{
+	color: #F4BFFF;
+}
+
+.main_t{
+	padding-top: 8%;
+	color: pink;
+	font-size: 250%;
+	height: 100%;
+	width: 100%;
+	display: flex;
+    justify-content: center;
+    align-items: center; 
+	font-family: 'KYS', sans-serif;
+	    text-shadow: 
+        -2px -2px 0 #000,  /* Górny lewy cień */
+        2px -2px 0 #000,   /* Górny prawy cień */
+        -3px 3px 0 #000,   /* Dolny lewy cień */
+        3px 3px 0 #000;    /* Dolny prawy cień */
+}
+.main{
+	z-index: 1;
+	position: relative;
+	clear: both;
+	text-align: center;
+	padding: 0px;
+	margin: 0px;
+}
+.main_zdj{
+	float: left;
+	width: 50%;
+	height: auto;
+	background-image: url('people_COMPR.avif');
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main_img{
+	float: left;
+	height: 100%;
+}
+.main_g{
+	min-height:90vh;
+	height: auto;
+	background-image: url('roman_COMPR.avif');
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main_s{
+	height: auto;
+	 display: flex;
+}
+.main_s_t{
+	font-family: 'KYS', sans-serif;
+	width: 50%;
+	height: 100%;
+	clear: both;
+	color: white;
+	font-size: 120%;
+	font-family: 'Times New Roman', Times, serif;
+	height: auto;
+}
+
+.main_d{
+	font-size: 180%;
+	float: left;
+	background-color:#D8D8D8;
+	min-height:: 55vh;
+	height:auto;
+	width: 100%;
+	clear: both;
+	padding: 0;
+	 display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main_td{
+	padding: 0;
+	margin: 0;
+	display: flex;
+	justify-content: center;
+}
+
+.stopka{
+	margin: 0;
+    padding: 0;
+	 background-color: #393B40;
+    height: 2.5vh;
+    width: 100%;
+    position: relative;
+    clear: both;
+}
+.stopka_h6{
+	font-family: 'UwU', sans-serif;
+ font-size: 80%;
+ 	text-align: center;
+	padding: 0.5%;
+	background-color: #393B40;
+}
+h1{
+	padding-top: 3%;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+h2{
+	font-size: 230%;
+}
+
+h3{
+	padding:4%;
+}
+
+h4{
+	padding: 4%;
+}
+
+.fb{
+	max-width: 128px;
+}
+
+.kont{
+	float: left;
+	font-size: 110%;
+	display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: auto;
+  margin: 2%;
+  margin-top: 2%;
+}
+
+.eh{
+	font-size: 100%;
+	font-weight: bold;
+}
+
+.iframe{
+	min-height: 80vh;
+	width: 100%;
+}
+/*@supports (-webkit-touch-callout: none) */
+
+
+.oferta{
+	min-height: 80vh;
+	width: 100%;
+	background-image: url('offers.svg');
+background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nasze_produkty{
+	float: left;
+	min-height: 80vh;
+	width: 100%;
+	background-image: url('background-space.svg');
+background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
